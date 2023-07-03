@@ -1,0 +1,19 @@
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>ALERT-2023-06-04</identifier>
+  <sender>YourEntity</sender>
+  <sent>2023-06-04T12:00:00Z</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <info>
+    <category>Met</category>
+    <event>SevereWeather</event>
+    <urgency>Immediate</urgency>
+    <severity>Extreme</severity>
+    <certainty>Observed</certainty>
+    <area>
+      <areaDesc>City of Shadows</areaDesc>
+    </area>
+    <description>A cataclysmic storm of darkness approaches. Seek shelter immediately. Beware the shadows.</description>
+  </info>
+</alert>
